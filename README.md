@@ -6,7 +6,7 @@ This script demonstrate how to train a GPT model from scratch, the code was adop
 Several thoughts on training a GPT from scratch:
 1. It is still a classification problem, predicting the next character or sub-character in a sequence, but it does so in a innovative way. Kudos to the team developed this approach.
 2. During training, each sentence is learned multiple times, allowing the model to calculate probalibilities for each unique characters to predict which character may occur next in the sequence.
-e.g. The sentence I LOVE YOU. would be processed as follows:
+e.g. The sentence I LOVE YOU. would be processed as follows: <br />
 I  >> predict "L" <br />
 I L >> predict "O" <br />
 I LO >> predict "V" <br />
