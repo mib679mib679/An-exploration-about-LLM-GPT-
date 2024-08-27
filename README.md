@@ -1,7 +1,7 @@
 # An-exploration-about-LLM-GPT-
 Code was adopted from Andrej Karpathy.
 
-This script demonstrate how to train a GPT model from scratch, the code was adopted from Andrej Karpathy's Youtube video, "Let's build GPT: from scratch, in code, spelled out"(https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4761s). The GPT model was trained on the tiny shakespeare dataset(https://www.kaggle.com/datasets/kaushaltiwari/tiny-shakespeare?resource=download) using a transformer architecture. I undertook this project to understand the concepts behind text generation, it was a an incredibly inspiring tutorial.
+This script demonstrate how to train a GPT model from scratch, the code was adopted from Andrej Karpathy's Youtube video, "Let's build GPT: from scratch, in code, spelled out"(https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4761s). The GPT model was trained on the tiny shakespeare dataset(https://www.kaggle.com/datasets/kaushaltiwari/tiny-shakespeare?resource=download) using a transformer architecture. I undertook this project to understand the concepts behind text generation, it was an incredibly inspiring tutorial.
 
 Several thoughts on training a GPT from scratch:
 1. It is still a classification problem, predicting the next character or sub-character in a sequence, but it does so in a innovative way. Kudos to the team developed this approach.
